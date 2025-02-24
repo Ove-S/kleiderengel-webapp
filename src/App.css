@@ -1,0 +1,147 @@
+#root {
+  text-align: center;
+}
+
+.navbar {
+  background-color: lightblue;
+}
+
+form {
+  border: 2px solid darkblue;
+  border-radius: 1em;
+  margin: 1em;
+}
+
+select :checked {
+  background-color: lightblue;
+}
+
+.select-box {
+  border: 0;
+  padding: 1em;
+}
+
+.select-option {
+  border-radius: 1em;
+  padding: 0.5em;
+  overflow: auto;
+}
+
+div .card {
+  border-color:darkblue;
+  border-width: 2px;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em;
+}
+
+@media screen and (max-width: 767px) {
+	div .card {
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+
+  th{
+    font-size: smaller;
+  }
+
+  td{
+    font-size: smaller;
+  }
+}
+
+#add-btn {
+  background-color: lightblue;
+  border-radius: 1em;
+  margin-top: 1em;
+}
+
+#add-btn:hover {
+  background-color: rgb(133, 216, 230);
+}
+
+.list-item {
+  list-style: none;
+  text-align: center;
+}
+
+.form-control{
+  border-color: lightblue !important;
+  border-width: 2px !important;
+  border-radius: 2em !important;
+}
+
+.form-select {
+  border-color: lightblue !important;
+  border-width: 2px !important;
+  border-radius: 2em !important;
+}
+
+
+.btn {
+  border-radius: 2em !important;
+}
+
+h5, h3 {
+  text-align: center;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+}
+
+span { 
+  color: red;
+  display: none;
+}
+
+input:invalid[focused = "true"] {
+  border-color: red !important;
+}
+
+input:invalid[focused = "true"] ~ span {
+  display: block;
+}
+
+select:invalid[focused = "true"] {
+  border-color: red !important;
+}
+
+select:invalid[focused = "true"] ~ span {
+  display: block;
+}
+
+.clothing-span{
+  display: block;
+}
+
+.plzWarning {
+  display: block;
+}
+
+button {
+  margin-bottom: 1em !important;
+}
+
+hr{
+  margin: 0% !important;
+}
+
+h3{
+  font-weight: bold !important;
+  margin-top: 0.5em !important;
+}
+
+.empty-list-span{
+  display: block;
+  margin-bottom: 1em;
+}
+
+h4{
+  text-align: start;
+}
+
+p {
+  text-align: start;
+}

@@ -1,0 +1,45 @@
+{
+    "name": "Kleiderengel",
+    "street": "Fiktionsstraße",
+    "streetNumber": "9",
+    "plz": "23456",
+    "city": "Nichtstadt",
+    "email": "kleiderengel@example.com",
+    "tel": "0123/45678910",
+    "openingTimes": [
+        {
+            "name": "Mo",
+            "time": "16:00 - 20:00"
+        },
+        {
+            "name": "Di",
+            "time": "16:00 - 20:00"
+        },
+        {
+            "name": "Mi",
+            "time": "geschlossen"
+        },
+        {
+            "name": "Do",
+            "time": "16:00 - 20:00"
+        },
+        {
+            "name": "Fr",
+            "time": "16:00 - 20:00"
+        },
+        {
+            "name": "Sa",
+            "time": "10:00-14:00"
+        },
+        {
+            "name": "So",
+            "time": "geschlossen"
+        }
+    ],
+    "pickupDays": [
+        {"day": "22", "month": "März", "year": "2025" },
+        {"day": "05", "month": "April", "year": "2025" },
+        {"day": "19", "month": "April", "year": "2025" },
+        {"day": "03", "month": "Mai", "year": "2025" }
+    ]
+}

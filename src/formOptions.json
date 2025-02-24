@@ -1,0 +1,44 @@
+{
+    "clothingMode": [
+        {"option": "Erwachsenen (unisex)"},
+        {"option": "Damen"},
+        {"option": "Herren"},
+        {"option": "Kinder (unisex)"},
+        {"option": "Mädchen"},
+        {"option": "Jungen"},
+        {"option": "Baby"},
+        {"option": "Universal"}
+    ],
+    "clothingType": [
+        {"option": "Hemd"},
+        {"option": "Pullover"},
+        {"option": "Hose"},
+        {"option": "T-shirt"},
+        {"option": "Bluse"},
+        {"option": "Shorts"},
+        {"option": "Strampler"},
+        {"option": "Mütze"},
+        {"option": "Schaal"}
+    ],
+    "clothingSize": [
+        {"option": "XXS"},
+        {"option": "XS"},
+        {"option": "S"},
+        {"option": "M"},
+        {"option": "L"},
+        {"option": "XL"},
+        {"option": "XXL"},
+        {"option": "Andere"},
+        {"option": "Universal"}
+    ],
+    "crisisAreas": [
+        {"option": "beliebig"},
+        {"option": "Somalia"},
+        {"option": "Nigeria"},
+        {"option": "Äthiopien"},
+        {"option": "Niger"},
+        {"option": "Mali"},
+        {"option": "Myanmar"},
+        {"option": "Sudan"}
+    ]
+}
